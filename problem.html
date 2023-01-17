@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Problem</title>
+</head>
+
+<body>
+    <div class="formbg-outer" data-radium="true">
+        <div class="formbg mt-4" data-radium="true">
+            <div class="formbg-inner padding-horizontal--48" data-radium="true"><a aria-current="page" class="mob-v-only mb-3 active" href="/" style="text-decoration: none;"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"></path></svg>Back</a>
+                <form
+                    id="addproblem-form" data-radium="true">
+                    <h2 class="heading-addproblem mb-5">Add Problem</h2>
+                    <div class="career-form row p-0 mb-2" data-radium="true" style="width: 100%;">
+                        <div class="col-md-12 col-lg-12 my-2">
+                            <div class="input-group position-relative"><input type="text" class="form-control" placeholder="Enter Problem Name" id="keywords"></div>
+                        </div>
+                    </div>
+                    <div class="career-form row p-0 mb-2" data-radium="true" style="width: 100%;">
+                        <div class="col-md-12 col-lg-12 my-2">
+                            <div class="input-group position-relative"><input type="text" class="form-control" placeholder="Enter Problem Link" id="keywords"></div>
+                        </div>
+                    </div>
+                    <div class="career-form row p-0 mb-2" data-radium="true" style="width: 100%;">
+                        <div class="col-md-6 col-lg-6 my-2" data-radium="true">
+                            <div class="select-container" data-radium="true"><select class="custom-select" data-radium="true"><option value="Other">Platform</option><option value="Leetcode">Leetcode</option><option value="GeeksforGeeks">GeeksforGeeks</option><option value="HackerRank">HackerRank</option><option value="CodeChef">CodeChef</option><option value="HackerEarth">HackerEarth</option><option value="TopCoder">TopCoder</option><option value="Spoj">Spoj</option><option value="CodeForces">CodeForces</option><option value="AtCoder">AtCoder</option><option value="Other">Other</option></select></div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 my-2" data-radium="true">
+                            <div class="select-container" data-radium="true"><select class="custom-select" data-radium="true"><option value="Other">Topic/Tag</option><option value="Binary Search">Binary Search</option><option value="Dynamic Programming">Dynamic Programming</option><option value="Arrays">Arrays</option><option value="Strings">Strings</option><option value="Tree">Tree</option><option value="Hashing">Hashing</option><option value="Linked List">Linked List</option><option value="Graph">Graph</option><option value="Stack">Stack</option><option value="Queue">Queue</option><option value="Heap">Heap</option><option value="Segment Tree">Segment Tree</option><option value="Sorting">Sorting</option><option value="Bit Manipulation">Bit Manipulation</option><option value="Greedy">Greedy</option><option value="Backtracking">Backtracking</option><option value="Other">Other</option></select></div>
+                        </div>
+                    </div>
+                    <div class="career-form row p-0 mb-4" data-radium="true" style="width: 100%;">
+                        <div class="col-md-12 col-lg-12 my-2" data-radium="true">
+                            <div class="input-group position-relative" data-radium="true"><textarea placeholder="Write about the problem, your approach, important concepts etc." class="form-control" id="exampleFormControlTextarea1" rows="4" data-radium="true" style="min-width: 100%;"></textarea></div>
+                        </div>
+                    </div>
+                    <div class="wrapper " data-radium="true"><input class="input-display-none" type="radio" name="solved" id="option-1" value="solved" checked=""><input class="input-display-none" type="radio" name="unsolved" id="option-2" value="unsolved"><label for="option-1" class="option option-b option-1"><span>Solved</span></label>
+                        <label
+                            for="option-2" class="option option-s option-2"><span>Unsolved</span></label>
+                    </div><button class="mt-5 button-css" type="submit" for="addproblem-form">Add Problem</button></form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
